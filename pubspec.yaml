@@ -63,8 +63,8 @@ dependencies:
 
   flutter_screenutil: ^5.6.0
   permission_handler: ^10.2.0
-  flutter_datetime_picker: ^1.5.1
-
+  #flutter_datetime_picker: ^1.5.1
+  flutter_datetime_picker_plus: ^2.0.1
   get: ^4.6.5
   get_storage: ^2.0.3
   built_value: ^8.4.3

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
+import 'package:flutter_datetime_picker_plus/flutter_datetime_picker_plus.dart'
+as picker;
+import 'package:flutter_datetime_picker_plus/flutter_datetime_picker_plus.dart';
 import 'package:get/get.dart';
 import 'package:social_media_app/constants/colors.dart';
 import 'package:social_media_app/constants/dimens.dart';
@@ -98,7 +100,7 @@ class EditDOBView extends StatelessWidget {
   _showDatePicker(EditDOBController logic) {
     DatePicker.showDatePicker(
       Get.context!,
-      theme: DatePickerTheme(
+      theme: picker.DatePickerTheme(
         backgroundColor:
             Theme.of(Get.context!).bottomSheetTheme.backgroundColor!,
         itemStyle: TextStyle(
